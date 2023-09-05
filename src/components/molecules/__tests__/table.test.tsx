@@ -1,8 +1,8 @@
 import { render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import "@testing-library/jest-dom";
-import { MTable, TableHeader } from "../index";
-import { Spell } from "../../../../interfaces";
+import { MTable, TableHeader } from "../MTable";
+import { Spell } from "../../../interfaces";
 
 test("renders table component with pagination", () => {
   const data: Spell[] = [
