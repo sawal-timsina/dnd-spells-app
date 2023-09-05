@@ -59,7 +59,8 @@ export const useFavourite = (): IProps => {
               <IconButton
                 aria-label={"favourite"}
                 size={"small"}
-                onClick={() => {
+                onClick={(event) => {
+                  event.stopPropagation();
                   toggleFavourite(data);
                 }}
               >

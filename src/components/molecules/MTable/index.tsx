@@ -107,7 +107,14 @@ export function MTable<T extends TableData>({
           )}
           {data.map((value, index) => {
             return (
-              <TableRow hover key={index} onClick={() => onRowClick?.(value)}>
+              <TableRow
+                hover
+                key={index}
+                onClick={() => onRowClick?.(value)}
+                sx={{
+                  pointerEvents: "visibleFill",
+                }}
+              >
                 {headers.map(({ dataIndex, width, render }, index) => {
                   const value_ = value[dataIndex];
                   return (
