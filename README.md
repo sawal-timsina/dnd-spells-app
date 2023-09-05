@@ -16,6 +16,13 @@ This Markdown file provides documentation for the Dungeons and Dragons 5th Editi
 Dungeons and Dragons 5th Edition Spells API. This app is designed to help players and Dungeon Masters access information
 about spells available in the 5th edition of the popular tabletop role-playing game, Dungeons and Dragons (D&D).
 
+## 🚀 Demo
+<a href="https://dnd-spells-app.vercel.app/" target="blank">
+<img src="https://app.statuscake.com/button/index.php?Track=9424765&Days=3&Design=6" />
+</a>
+
+Try the app: [Dungeons And Dragons](https://dnd-spells-app.vercel.app)
+
 ## 🧐Features
 
 The Dungeons and Dragons 5th Edition Spells App provides the following features:
@@ -55,7 +62,7 @@ Follow these instructions to set up and use the Dungeons and Dragons 5th Edition
 - Node.js and npm installed on your computer.
 - A code editor (e.g., Visual Studio Code).
 
-### 🛠️ Installation
+## 🛠️ Installation
 
 1. Clone the repository to your local machine:
 
@@ -88,3 +95,16 @@ Follow these instructions to set up and use the Dungeons and Dragons 5th Edition
    ```
 
 The app should now be running locally on `http://localhost:5001`.
+
+## 🧪 Test with Jest
+
+
+Run all the test
+```bash
+yarn test
+```
+
+Run test coverage
+```bash
+yarn test:coverage
+```
